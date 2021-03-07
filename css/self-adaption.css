@@ -1,0 +1,204 @@
+@media screen and (min-device-width: 2000px){
+    .images_slides .slide .content{
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+    .images_slides .slide .content .context{
+        margin: 0.55rem 0.65rem;
+    }
+    .images_slides .slide .content p{
+        font-size: 0.5rem;
+    }
+    .images_slides .slide .content h3{
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+    #prev,
+    #next{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #prev i,#next i{
+        font-size: 0.8rem;
+    }
+    .descriptions{
+        padding: 0.1rem;
+        margin-top: 0.5rem;
+    }
+    .description_l,
+    .description_r{
+        font-size: 0.55rem;
+        padding: 0.08rem;
+        margin: 0 1.5rem;
+        white-space: nowrap;
+    }
+
+    .section{
+        padding: 1.25rem 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        margin: 0.75rem 0;
+        text-align: center;
+        max-width: 11rem;
+    }
+    .col i{
+        font-size: 3em;
+    }
+    .row .col h5{
+        font-size: 0.7rem;
+        white-space: nowrap;
+        margin-top: 0.25rem;
+        margin-bottom: 0.125rem;
+    }
+    .row .col p{
+        font-size: 0.5rem;
+        margin-top: 0.25rem;
+    }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 1024px){
+    .images_slides .slide .content{
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .images_slides .slide .content .context{
+        margin: 0.25rem 0.35rem;
+    }
+    .images_slides .slide .content p{
+        font-size: 0.3rem;
+    }
+    .images_slides .slide .content h3{
+        font-size: 0.5rem;
+        white-space: nowrap;
+    }
+    #prev,
+    #next{
+        width: 1rem;
+        height: 1rem;
+    }
+    #prev i,#next i{
+        font-size: 0.5rem;
+    }
+    .descriptions{
+        padding: 0.1rem;
+    }
+    .description_l,
+    .description_r{
+        font-size: 0.3rem;
+        padding: 0.08rem;
+        margin: 0 0.5rem;
+        white-space: nowrap;
+    }
+
+    .section{
+        padding: 0.5rem 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        margin: 0.5rem 0;
+    }
+    .row .col h5{
+        margin-top: 0.25rem;
+        margin-bottom: 0.125rem;
+    }
+}
+@media screen and (min-device-width: 350px) and (max-device-width: 500px){
+    .images_slides .slide .content{
+        padding: 0.25rem;
+        text-align: center;
+    }
+    .images_slides .slide .content .context{
+        margin: 0.15rem;
+    }
+    .images_slides .slide .content p{
+        font-size: 0.25rem;
+    }
+    .images_slides .slide .content h3{
+        font-size: 0.35rem;
+        white-space: nowrap;
+    }
+    #prev,
+    #next{
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+    #prev i,#next i{
+        font-size: 0.3rem;
+    }
+    .descriptions{
+        padding: 0.1rem;
+    }
+    .description_l,
+    .description_r{
+        font-size: 0.25rem;
+        padding: 0.05rem;
+        margin: 0 0.25rem;
+        white-space: nowrap;
+    }
+
+    .section{
+        padding: 0.5rem 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        margin: 0.5rem 0;
+    }
+    .row .col h5{
+        margin-top: 0.25rem;
+        margin-bottom: 0.125rem;
+    }
+}
+@media screen and (max-device-width: 350px) {
+    .images_slides .slide .content{
+        padding: 0.15rem;
+        text-align: center;
+    }
+    .images_slides .slide .content .context{
+        margin: 0.1rem;
+    }
+    .images_slides .slide .content p{
+        font-size: 0.2rem;
+    }
+    .images_slides .slide .content h3{
+        font-size: 0.3rem;
+        white-space: nowrap;
+    }
+    #prev,
+    #next{
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+    #prev i,#next i{
+        font-size: 0.3rem;
+    }
+    .descriptions{
+        padding: 0.1rem;
+    }
+    .description_l,
+    .description_r{
+        font-size: 0.2rem;
+        padding: 0.05rem;
+        margin: 0 0.25rem;
+        white-space: nowrap;
+    }
+
+    .section{
+        padding: 0.5rem 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        margin: 0.5rem 0;
+    }
+    .row .col h5{
+        margin-top: 0.25rem;
+        margin-bottom: 0.125rem;
+    }
+}
